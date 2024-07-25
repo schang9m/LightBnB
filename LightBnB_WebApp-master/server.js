@@ -27,6 +27,7 @@ app.use("/users", userRoutes);
 
 app.get("/test", (req, res) => {
   res.send("🤗");
+  console.log("test worked")
 });
 
 app.listen(port, (err) => {
